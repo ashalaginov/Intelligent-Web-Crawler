@@ -13,6 +13,17 @@ While processing pages on retailer website the goal is to locate suitable set of
 ## Configuration
 File .env contains MySQL connection details and you can exclude it from Git to release only functionality. FLAG_CATEGORIES_COLLECTION and FLAG_PRODUCTS_COLLECTION enable or disable corresponding sub-functions. 
 
+## Installation
+In case if you want to install it and use later, just execute:
+
+```bash
+# Install requirements
+$ pip3 install -r requirements.txt
+
+# Install WebCraler
+python3 setup.py install
+```
+
 ## Software Requirements
 - Python 3.8.5 
 - Python modules: mysql, mysql-connector, beautifulsoup4 4.8.2, re, urllib, time,random, dotenv. (complete list - requirements.txt)
