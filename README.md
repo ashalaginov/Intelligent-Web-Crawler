@@ -13,6 +13,13 @@ While processing pages on retailer website the goal is to locate suitable set of
 ## Configuration
 File .env contains MySQL connection details and you can exclude it from Git to release only functionality. FLAG_CATEGORIES_COLLECTION and FLAG_PRODUCTS_COLLECTION enable or disable corresponding sub-functions. 
 
+## Files
+- src/webcrawler.py - implementation of crawler
+- database.sql - MySQL scheme of two tables: categories and products
+- requirements.txt - required Python modules
+- setup.py - setup script for this crawler
+- .env - configuration (can be excluded if you need to keep credentials private)
+
 ## Installation
 In case if you want to install it and use later, just execute:
 
